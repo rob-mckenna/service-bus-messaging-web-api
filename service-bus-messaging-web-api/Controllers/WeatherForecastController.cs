@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace service_bus_messaging_web_api.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
