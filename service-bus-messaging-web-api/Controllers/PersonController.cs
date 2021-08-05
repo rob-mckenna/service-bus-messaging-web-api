@@ -31,7 +31,7 @@ namespace service_bus_messaging_web_api.Controllers
             };
             await queueClient.SendAsync(orderMessage).ConfigureAwait(false);
 
-            return Ok("Create order message has been successfully pushed to queue");
+            return Ok("Message has been successfully pushed to queue");
         }
     }
 }
