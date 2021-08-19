@@ -46,7 +46,7 @@ namespace service_bus_messaging_web_api
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Service Bus Messaging Web API v1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Service Bus Messaging Web API v1.0");
             });
 
             app.UseHttpsRedirection();
